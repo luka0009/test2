@@ -60,12 +60,7 @@ const Video = () => {
 				</div>
 			) : (
 				<>
-					<ReactPlayer
-						url={
-							"https://drive.google.com/file/d/1FpzwWxEpyxA0aesutzmk1xcav1lnqa3H/view?usp=sharing"
-						}
-						controls={true}
-					/>
+					<ReactPlayer url={documentary} controls={true} />
 					{/* <div className="download-container">
 						<a href={documentary} download="full_doc.mp4">
 							<button>Download Video</button>
